@@ -29,7 +29,8 @@ my_img_size = size(my_img)</pre>
 - Кількість рядків<br>
 - Кількість стовпців<br>
 - Кількість каналів<br>
-![](https://github.com/StasVerenchuk/Signal-and-image-processing/blob/main/lab1/images/command_20window.png)
+
+![](https://github.com/StasVerenchuk/Signal-and-image-processing/blob/main/lab1/images/command_window.png)
 
 #### 4. Зберегти завантажені зображення в заданому каталозі з указівкою шляху до нього.
 Вирішено зберегти зображення, які включені до бібліотеки MATLAB, у вихідний каталог.
