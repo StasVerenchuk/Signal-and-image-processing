@@ -8,7 +8,7 @@ imshow(img1), figure, imshow(img2), figure, imshow(img3)
 %% 2. Завантаження власного зображення
 close all
 
-my_img = imread('D:\bug.jpg');
+my_img = imread('D:\Навчання\Signal-and-image-processing\lab1\images\bug.jpg');
 imshow(my_img)
 %% 3. Отримуємо інформацію про зображення
 img1_size = size(img1)
