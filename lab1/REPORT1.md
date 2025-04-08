@@ -11,9 +11,11 @@
 img2 = imread('pears.png');
 img3 = imread('greens.jpg');
 imshow(img1), figure, imshow(img2), figure, imshow(img3)</pre>
+![](https://github.com/StasVerenchuk/Signal-and-image-processing/blob/main/lab1/images/1.png)
 #### 2. Завантажити зображення, що зберігається в довільному каталозі (з безпосередньою вказівкою шляху до нього).
 <pre>my_img = imread('D:\Навчання\Signal-and-image-processing\lab1\images\bug.jpg');
 imshow(my_img)</pre>
+![](https://github.com/StasVerenchuk/Signal-and-image-processing/blob/main/lab1/images/2.png)
 #### 3.Одержати інформацію про завантажені зображення.
 <pre>img1_size = size(img1)
 img2_size = size(img2)
@@ -27,7 +29,7 @@ my_img_size = size(my_img)</pre>
 - Кількість рядків<br>
 - Кількість стовпців<br>
 - Кількість каналів<br>
-
+![](https://github.com/StasVerenchuk/Signal-and-image-processing/blob/main/lab1/images/command_20window.png)
 
 #### 4. Зберегти завантажені зображення в заданому каталозі з указівкою шляху до нього.
 Вирішено зберегти зображення, які включені до бібліотеки MATLAB, у вихідний каталог.
@@ -59,9 +61,7 @@ imwrite(img3, ouput_path3);</pre>
 #### 6. З використанням процедури imadjust(I); виконати контрастування зображень. Відобразити зображення з підвищеною контрастністю на екрані ПК.
 <pre>img_adj = imadjust(my_img_gray);
 imshow(my_img_gray), figure, imshow(img_adj);</pre>
-| Блок коду | Діаграма розподілу яскравостей | Коментар |
-|-----------|-------------------------------|----------|
-
+![](https://github.com/StasVerenchuk/Signal-and-image-processing/blob/main/lab1/images/contrast.png)
 
 #### 7. Відобразити негатив зображення I.
 <pre>img_neg = 255 - my_img_gray;
@@ -73,6 +73,7 @@ title('Grayscale');
 subplot(1,2,2);
 imshow(img_neg);
 title('Negative');</pre>
+![](https://github.com/StasVerenchuk/Signal-and-image-processing/blob/main/lab1/images/negative.png)
 
 #### 8. З використанням Help MATLAB ознайомитися більш детально з особливостями процедури контрастування зображень imadjust.
 #### 9. Відповісти на наступні питання:
