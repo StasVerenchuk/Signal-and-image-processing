@@ -44,10 +44,9 @@ ylabel('К-сть пікселів');
 close all
 
 img_adj = imadjust(my_img_gray);
-imshow(my_img_gray), figure, imshow(img_adj);
+img_adj2 = imadjust(my_img_gray, [0.2, 0.8], []);
+imshow(my_img_gray), figure, imshow(img_adj), figure, imshow(img_adj2);
 
-%img_adj = imadjust(my_img_gray, [0.3, 0.7], []);
-%imshow(my_img_gray), figure, imshow(img_adj);
 %% Негатив зображення
 close all
 
@@ -63,11 +62,12 @@ title('Negative');
 %% 
 close all
 
-%img_adj = imadjust(my_img_gray, [0.2, 0.8], []);
-imshow(img_adj);
+imshow(img_adj2);
 
 figure;
-imhist(img_adj);
-title('Гістограма розподілу яскаравостей');
+imhist(img_adj2);
+title('Контрастування зображення');
 xlabel('Яскравість');
 ylabel('К-сть пікселів');
+
+
