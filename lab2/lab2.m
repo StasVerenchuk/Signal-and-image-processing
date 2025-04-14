@@ -1,14 +1,14 @@
 %% 1. Завантажити з бібліотеки MATLAB кілька тестових зображень. Відобразити вихідні зображення на екрані ПК
 close all
 
-img = imread('D:\Навчання\Signal-and-image-processing\lab2\images\10_копійок.jpg');
+img = imread('D:\Навчання\Signal-and-image-processing\lab2\images\10_kopiyoks.jpg');
 imshow(img);
 
 %% 
 img = rgb2gray(img);
 
 %% 2. Здійснити процедуру зашумлення зображення нормальним білим шумом і імпульсною перешкодою з різною щільністю.
-close all;
+
 
 % Нормальний білий шум (Gaussian noise)
 img_gaussian_noise = imnoise(img, 'gaussian');
